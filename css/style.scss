@@ -1,0 +1,33 @@
+.panel{
+    display: none;
+
+}
+.accBtn{
+    background-color: orange;
+    border: 1px solid red;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+.tab-menu{
+    margin:30px 0;
+    .tabBtn{
+        padding: 12px 30px;
+        background: seagreen;
+        color: #fff;
+        border-radius: 10px;
+
+    }
+    .tab-panel{
+        margin: 10px 0;
+        padding: 30px;
+        border: 1px solid seagreen;
+        border-radius: 0 0 10px 10px;
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
